@@ -6,7 +6,12 @@ Los integrantes del equipo son:
 - Luz Rocío García Peña
 
 ## Descripción del proyecto
-Haciendo uso del paralelismo, se seleccionan imágenes del propio dispositivo del usuario y se cargan en la vista. El usuario puede elegir cualquiera de los 6 filtros disponibles para aplicarlo a todas las imágenes que haya seleccionado. Una vez aplicado el filtro, el usuario puede dar clic a la imagen modificada para verla en grande y notar con mayor detalle el cambio realizado al aplicar el filtro y también puede abrir en grande la imagen original si lo desea.
+Este programa aplica procesa imágenes y les aplica filtros haciendo uso del paralelismo. Permite:
+- Cargar imágenes al programa desde el dispositivo (con paralelismo).
+- Aplicar 9 diferentes filtros a las imágenes, que son los siguientes: Canny, GaussianBlur, Laplacian, Sobel, Mean, Median, UnsharpMask, Rotate, SobelWithOrientation.
+- Medir el uso del CPU y el tiempo de procesamiento de las imágenes.
+- Ver en grande una imagen al hacer clic en ella. Esto aplica tanto para la imagen original como la modificada.
+- Guardar imágenes haciendo clic a la letra 'g' en el teclado luego de haber dado clic a la imagen para verla en grande.
 
 ## SpeedUp y Eficiencia
 
