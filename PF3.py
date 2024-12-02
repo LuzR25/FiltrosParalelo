@@ -21,7 +21,7 @@ before_label=None
 Speed_label=None
 filters = ["Canny", "GaussianBlur", "Laplacian", "Sobel", "Mean", "Median","UnsharpMask","Rotate","SobelWithOrientation"]
 # Obtener el número de hilos basado en los núcleos de la CPU
-num_workers = 2
+num_workers = os.cpu_count()
 
 # Función para cargar y decodificar una imagen
 def cargar_imagen(filepath):
