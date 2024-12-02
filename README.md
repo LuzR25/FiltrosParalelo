@@ -13,7 +13,20 @@ Este programa aplica procesa imágenes y les aplica filtros haciendo uso del par
 - Ver en grande una imagen al hacer clic en ella. Esto aplica tanto para la imagen original como la modificada.
 - Guardar imágenes haciendo clic a la letra 'g' en el teclado luego de haber dado clic a la imagen para verla en grande.
 
+En general, esto es lo que hace cada filtro a cada imagen:
+- **Canny:** Detecta bordes aplicando un filtro Gaussiano, gradiente, y umbral adaptativo.
+- **GaussianBlur:** Suaviza la imagen usando un filtro gaussiano.
+- **Laplacian:** Detecta bordes destacando regiones de cambios rápidos de intensidad.
+- **Sobel:** Calcula gradientes en direcciones específicas (x, y) para detectar bordes.
+- **Mean:** Suaviza la imagen promediando píxeles en un área definida.
+- **Median:** Suaviza eliminando ruido con el valor mediano en un área definida.
+- **UnsharpMask:** Aumenta nitidez combinando la imagen original con una versión suavizada.
+- **Rotate:** Gira la imagen en un ángulo dado.
+- **SobelWithOrientation:** Similar a Sobel, pero calcula dirección y magnitud de bordes.
+
 ## SpeedUp y Eficiencia
+
+Para una computadora Dell Inspiron 5567 con un Intel Core i5 con 4 procesadores lógicos, se obtuvieron los siguientes resultados en tiempo, speedup y eficiencia
 
 <table style="width:100%; border-collapse: collapse; text-align: center; vertical-align: middle;">
   <thead>
