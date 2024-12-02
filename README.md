@@ -8,7 +8,7 @@ Los integrantes del equipo son:
 ## Descripción del proyecto
 Haciendo uso del paralelismo, se seleccionan imágenes del propio dispositivo del usuario y se cargan en la vista. El usuario puede elegir cualquiera de los 6 filtros disponibles para aplicarlo a todas las imágenes que haya seleccionado. Una vez aplicado el filtro, el usuario puede dar clic a la imagen modificada para verla en grande y notar con mayor detalle el cambio realizado al aplicar el filtro y también puede abrir en grande la imagen original si lo desea.
 
-## Tabla de SpeedUp y Eficiencia
+## SpeedUp y Eficiencia
 
 <table style="width:100%; border-collapse: collapse; text-align: center; vertical-align: middle;">
   <thead>
@@ -58,10 +58,18 @@ Haciendo uso del paralelismo, se seleccionan imágenes del propio dispositivo de
 
 
 ### SpeedUp
-
-Canny = $1.32 \div 0.32 = 4.125$  
+Canny = $1.32 \div 0.32 = 4.12$  
 GaussianBlur = $1.54 \div 0.7 = 2.2$  
 Laplacian = $1.72 \div 0.44 = 3.909$  
 Sobel = $2.53 \div 0.92 = 2.75$  
 Mean = $1.38 \div 0.25 = 5.52$  
 Median = $10.23 \div 5.09 = 2.009$
+
+### Eficiencia
+Canny: $4.125 \div 4 = 1.03$
+GaussianBlur: $2.2 \div 4 = 0.55$
+Laplacian: $3.909 \div 4 = 0.97$
+Sobel: $2.75 \div 4 = 0.68$
+Mean: $5.52 \div 4 = 1.38$
+Median: $2.009 \div 4 = 0.502$
+
