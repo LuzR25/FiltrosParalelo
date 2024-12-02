@@ -10,7 +10,7 @@ Haciendo uso del paralelismo, se seleccionan imágenes del propio dispositivo de
 
 ## Tabla de SpeedUp y Eficiencia
 
-<table>
+<table style="width:100%; border-collapse: collapse; text-align: center; vertical-align: middle;">
   <thead>
     <tr>
       <th rowspan="2">Procesadores</th>
