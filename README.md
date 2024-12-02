@@ -14,7 +14,7 @@ Haciendo uso del paralelismo, se seleccionan imágenes del propio dispositivo de
   <thead>
     <tr>
       <th rowspan="2">Procesadores</th>
-      <th colspan="6">Tiempo (s) para n=82 imágenes</th>
+      <th colspan="9">Tiempo (s) para n=82 imágenes</th>
     </tr>
     <tr>
       <th>Canny</th>
@@ -75,10 +75,10 @@ GaussianBlur = $1.54 \div 0.7 = 2.2$
 Laplacian = $1.72 \div 0.44 = 3.909$  
 Sobel = $2.53 \div 0.92 = 2.75$  
 Mean = $1.38 \div 0.25 = 5.52$  
-Median = $10.23 \div 5.09 = 2.009$
-UnsharpMask = $1.33 \div 0.33 = 4.03$
-Rotate = $1.63 \div 0.86 = 1.89$
-SobelWithOrientation = $2.97 \div 1.40 = 2.12$
+Median = $10.23 \div 5.09 = 2.009$  
+UnsharpMask = $1.33 \div 0.33 = 4.03$  
+Rotate = $1.63 \div 0.86 = 1.89$  
+SobelWithOrientation = $2.97 \div 1.40 = 2.12$  
 
 ### Eficiencia
 Canny = $4.125 \div 4 = 1.03$  
@@ -86,9 +86,9 @@ GaussianBlur = $2.2 \div 4 = 0.55$
 Laplacian = $3.909 \div 4 = 0.97$  
 Sobel = $2.75 \div 4 = 0.68$  
 Mean = $5.52 \div 4 = 1.38$  
-Median = $2.009 \div 4 = 0.502$
-UnsharpMask = $4.03 \div 4 = 1.007$
-Rotate = $1.89 \div 4 = 0.47$
-SobelWithOrientation = $2.12 \div 4 = 0.53$
+Median = $2.009 \div 4 = 0.502$  
+UnsharpMask = $4.03 \div 4 = 1.007$  
+Rotate = $1.89 \div 4 = 0.47$  
+SobelWithOrientation = $2.12 \div 4 = 0.53$  
 
 
