@@ -58,8 +58,14 @@ Haciendo uso del paralelismo, se seleccionan imágenes del propio dispositivo de
 
 
 ###SpeedUp
-Canny = $$ \frac{1.32}{0.32} = 4.12 $$ 
-GaussianBlur = $$ \frac{1.54}{0.7} = 2.2 $$
+Canny = 
+$$ 
+\frac{1.32}{0.32} = 4.12 
+$$ 
+GaussianBlur = 
+$$ 
+\frac{1.54}{0.7} = 2.2 
+$$
 Laplacian = $$ \frac{1.72}{0.44} = 3.909 $$ 
 Sobel = $$ \frac{2.53}{0.92} = 2.75 $$ 
 Mean = $$ \frac{1.38}{0.25} = 5.52 $$ 
