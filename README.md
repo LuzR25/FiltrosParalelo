@@ -26,7 +26,7 @@ En general, esto es lo que hace cada filtro a cada imagen:
 
 ## SpeedUp y Eficiencia
 
-Para una computadora Dell Inspiron 5567 con un Intel Core i5 con 4 procesadores lógicos, se obtuvieron los siguientes resultados en tiempo, speedup y eficiencia
+Para una computadora Dell Inspiron 5567 con un Intel Core i5 con 4 procesadores lógicos, se obtuvieron los siguientes resultados en tiempo, speedup y eficiencia:
 
 <table style="width:100%; border-collapse: collapse; text-align: center; vertical-align: middle;">
   <thead>
