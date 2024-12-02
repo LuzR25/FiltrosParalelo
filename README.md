@@ -13,12 +13,16 @@ Haciendo uso del paralelismo, se seleccionan imágenes del propio dispositivo de
 <table>
   <thead>
     <tr>
-      <th rowspan="2">Encabezado Combinado 1</th>
-      <th colspan="2">Encabezado Combinado 2 y 3</th>
+      <th rowspan="2">Encabezado Combinado Col 1</th>
+      <th colspan="6">Encabezado Combinado Col 2 a 7</th>
     </tr>
     <tr>
       <th>Encabezado 2</th>
       <th>Encabezado 3</th>
+      <th>Encabezado 4</th>
+      <th>Encabezado 5</th>
+      <th>Encabezado 6</th>
+      <th>Encabezado 7</th>
     </tr>
   </thead>
   <tbody>
@@ -26,11 +30,46 @@ Haciendo uso del paralelismo, se seleccionan imágenes del propio dispositivo de
       <td>Fila 1, Col 1</td>
       <td>Fila 1, Col 2</td>
       <td>Fila 1, Col 3</td>
+      <td>Fila 1, Col 4</td>
+      <td>Fila 1, Col 5</td>
+      <td>Fila 1, Col 6</td>
+      <td>Fila 1, Col 7</td>
     </tr>
     <tr>
       <td>Fila 2, Col 1</td>
       <td>Fila 2, Col 2</td>
       <td>Fila 2, Col 3</td>
+      <td>Fila 2, Col 4</td>
+      <td>Fila 2, Col 5</td>
+      <td>Fila 2, Col 6</td>
+      <td>Fila 2, Col 7</td>
+    </tr>
+    <tr>
+      <td>Fila 3, Col 1</td>
+      <td>Fila 3, Col 2</td>
+      <td>Fila 3, Col 3</td>
+      <td>Fila 3, Col 4</td>
+      <td>Fila 3, Col 5</td>
+      <td>Fila 3, Col 6</td>
+      <td>Fila 3, Col 7</td>
+    </tr>
+    <tr>
+      <td>Fila 4, Col 1</td>
+      <td>Fila 4, Col 2</td>
+      <td>Fila 4, Col 3</td>
+      <td>Fila 4, Col 4</td>
+      <td>Fila 4, Col 5</td>
+      <td>Fila 4, Col 6</td>
+      <td>Fila 4, Col 7</td>
+    </tr>
+    <tr>
+      <td>Fila 5, Col 1</td>
+      <td>Fila 5, Col 2</td>
+      <td>Fila 5, Col 3</td>
+      <td>Fila 5, Col 4</td>
+      <td>Fila 5, Col 5</td>
+      <td>Fila 5, Col 6</td>
+      <td>Fila 5, Col 7</td>
     </tr>
   </tbody>
 </table>
