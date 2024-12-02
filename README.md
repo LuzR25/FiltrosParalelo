@@ -66,10 +66,11 @@ Mean = $1.38 \div 0.25 = 5.52$
 Median = $10.23 \div 5.09 = 2.009$
 
 ### Eficiencia
-Canny = $4.125 \div 4 = 1.03$
-GaussianBlur = $2.2 \div 4 = 0.55$
-Laplacian = $3.909 \div 4 = 0.97$
-Sobel = $2.75 \div 4 = 0.68$
-Mean = $5.52 \div 4 = 1.38$
+Canny = $4.125 \div 4 = 1.03$  
+GaussianBlur = $2.2 \div 4 = 0.55$  
+Laplacian = $3.909 \div 4 = 0.97$  
+Sobel = $2.75 \div 4 = 0.68$  
+Mean = $5.52 \div 4 = 1.38$  
 Median = $2.009 \div 4 = 0.502$
+
 
