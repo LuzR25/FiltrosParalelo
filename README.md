@@ -57,7 +57,7 @@ Haciendo uso del paralelismo, se seleccionan imágenes del propio dispositivo de
 </table>
 
 
-###SpeedUp
+### SpeedUp
 Canny = 
 $$ 
 \frac{1.32}{0.32} = 4.12 
