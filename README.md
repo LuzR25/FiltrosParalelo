@@ -58,6 +58,14 @@ Haciendo uso del paralelismo, se seleccionan imágenes del propio dispositivo de
 
 
 ### SpeedUp
+
+La fórmula general de la división es:
+
+$$
+\frac{a}{b} = c
+$$  
+
+
 Canny = 
 $$ 
 \frac{1.32}{0.32} = 4.12 
