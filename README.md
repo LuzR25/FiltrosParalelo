@@ -59,23 +59,9 @@ Haciendo uso del paralelismo, se seleccionan imágenes del propio dispositivo de
 
 ### SpeedUp
 
-La fórmula general de la división es:
-$$
-\frac{a}{b} = c
-$$  
-
-
-Canny = 
-$$ 
-\frac{1.32}{0.32} = 4.12 
-$$ 
-GaussianBlur = 
-$$ 
-\frac{1.54}{0.7} = 2.2 
-$$
-Laplacian = $$ \frac{1.72}{0.44} = 3.909 $$ 
-Sobel = $$ \frac{2.53}{0.92} = 2.75 $$ 
-Mean = $$ \frac{1.38}{0.25} = 5.52 $$ 
-Median = $$ \frac{10.23}{5.09} = 2.009 $$ 
-
-  
+Canny = $1.32 \div 0.32 = 4.125$  
+GaussianBlur = $1.54 \div 0.7 = 2.2$  
+Laplacian = $1.72 \div 0.44 = 3.909$  
+Sobel = $2.53 \div 0.92 = 2.75$  
+Mean = $1.38 \div 0.25 = 5.52$  
+Median = $10.23 \div 5.09 = 2.009$
