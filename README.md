@@ -23,6 +23,9 @@ Haciendo uso del paralelismo, se seleccionan imágenes del propio dispositivo de
       <th>Sobel</th>
       <th>Mean</th>
       <th>Median</th>
+      <th>UnsharpMask</th>
+      <th>Rotate</th>
+      <th>SobelWithOrientation</th>
     </tr>
   </thead>
   <tbody>
@@ -34,6 +37,9 @@ Haciendo uso del paralelismo, se seleccionan imágenes del propio dispositivo de
       <td>2.53</td>
       <td>1.38</td>
       <td>10.23</td>
+      <td>1.33</td>
+      <td>1.63</td>
+      <td>2.97</td>
     </tr>
     <tr>
       <td>2</td>
@@ -43,6 +49,9 @@ Haciendo uso del paralelismo, se seleccionan imágenes del propio dispositivo de
       <td>1.09</td>
       <td>0.42</td>
       <td>6.04</td>
+      <td>0.41</td>
+      <td>0.95</td>
+      <td>1.49</td>
     </tr>
     <tr>
       <td>4</td>
@@ -52,6 +61,9 @@ Haciendo uso del paralelismo, se seleccionan imágenes del propio dispositivo de
       <td>0.92</td>
       <td>0.25</td>
       <td>5.09</td>
+      <td>0.33</td>
+      <td>0.86</td>
+      <td>1.40</td>
     </tr>
   </tbody>
 </table>
@@ -64,6 +76,9 @@ Laplacian = $1.72 \div 0.44 = 3.909$
 Sobel = $2.53 \div 0.92 = 2.75$  
 Mean = $1.38 \div 0.25 = 5.52$  
 Median = $10.23 \div 5.09 = 2.009$
+UnsharpMask = $1.33 \div 0.33 = 4.03$
+Rotate = $1.63 \div 0.86 = 1.89$
+SobelWithOrientation = $2.97 \div 1.40 = 2.12$
 
 ### Eficiencia
 Canny = $4.125 \div 4 = 1.03$  
@@ -72,5 +87,8 @@ Laplacian = $3.909 \div 4 = 0.97$
 Sobel = $2.75 \div 4 = 0.68$  
 Mean = $5.52 \div 4 = 1.38$  
 Median = $2.009 \div 4 = 0.502$
+UnsharpMask = $4.03 \div 4 = 1.007$
+Rotate = $1.89 \div 4 = 0.47$
+SobelWithOrientation = $2.12 \div 4 = 0.53$
 
 
