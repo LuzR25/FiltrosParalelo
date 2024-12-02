@@ -13,63 +13,45 @@ Haciendo uso del paralelismo, se seleccionan imágenes del propio dispositivo de
 <table>
   <thead>
     <tr>
-      <th rowspan="2">Encabezado Combinado Col 1</th>
-      <th colspan="6">Encabezado Combinado Col 2 a 7</th>
+      <th rowspan="2">Procesadores</th>
+      <th colspan="6">Tiempo (s) para n=82 imágenes</th>
     </tr>
     <tr>
-      <th>Encabezado 2</th>
-      <th>Encabezado 3</th>
-      <th>Encabezado 4</th>
-      <th>Encabezado 5</th>
-      <th>Encabezado 6</th>
-      <th>Encabezado 7</th>
+      <th>Canny</th>
+      <th>GaussianBlur</th>
+      <th>Laplacian</th>
+      <th>Sobel</th>
+      <th>Mean</th>
+      <th>Median</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Fila 1, Col 1</td>
-      <td>Fila 1, Col 2</td>
-      <td>Fila 1, Col 3</td>
-      <td>Fila 1, Col 4</td>
-      <td>Fila 1, Col 5</td>
-      <td>Fila 1, Col 6</td>
-      <td>Fila 1, Col 7</td>
+      <td>1</td> 					
+      <td>1.32</td>
+      <td>1.54</td>
+      <td>1.72</td>
+      <td>2.53</td>
+      <td>1.38</td>
+      <td>10.23</td>
     </tr>
     <tr>
-      <td>Fila 2, Col 1</td>
-      <td>Fila 2, Col 2</td>
-      <td>Fila 2, Col 3</td>
-      <td>Fila 2, Col 4</td>
-      <td>Fila 2, Col 5</td>
-      <td>Fila 2, Col 6</td>
-      <td>Fila 2, Col 7</td>
+      <td>2</td>
+      <td>0.38</td>
+      <td>0.78</td>
+      <td>0.5</td>
+      <td>1.09</td>
+      <td>0.42</td>
+      <td>6.04</td>
     </tr>
     <tr>
-      <td>Fila 3, Col 1</td>
-      <td>Fila 3, Col 2</td>
-      <td>Fila 3, Col 3</td>
-      <td>Fila 3, Col 4</td>
-      <td>Fila 3, Col 5</td>
-      <td>Fila 3, Col 6</td>
-      <td>Fila 3, Col 7</td>
-    </tr>
-    <tr>
-      <td>Fila 4, Col 1</td>
-      <td>Fila 4, Col 2</td>
-      <td>Fila 4, Col 3</td>
-      <td>Fila 4, Col 4</td>
-      <td>Fila 4, Col 5</td>
-      <td>Fila 4, Col 6</td>
-      <td>Fila 4, Col 7</td>
-    </tr>
-    <tr>
-      <td>Fila 5, Col 1</td>
-      <td>Fila 5, Col 2</td>
-      <td>Fila 5, Col 3</td>
-      <td>Fila 5, Col 4</td>
-      <td>Fila 5, Col 5</td>
-      <td>Fila 5, Col 6</td>
-      <td>Fila 5, Col 7</td>
+      <td>4</td>
+      <td>0.32</td>
+      <td>0.7</td>
+      <td>0.44</td>
+      <td>0.92</td>
+      <td>0.25</td>
+      <td>5.09</td>
     </tr>
   </tbody>
 </table>
